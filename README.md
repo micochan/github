@@ -1,1 +1,1 @@
-# github
+This is test repository.

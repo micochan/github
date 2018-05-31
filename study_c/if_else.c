@@ -1,4 +1,4 @@
-/*IF-ELSEµÄÓÃ·¨*/
+/*IF-ELSE's used*/
 
 #include <stdio.h>
 int main(void)

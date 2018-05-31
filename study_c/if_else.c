@@ -8,7 +8,7 @@ int main(void)
     scanf("%d %d",&a,&b);
     max = a;
     if(a > b){
-        printf("´bigger number is£º%d\n",max);
+        printf("bigger number is£º%d\n",max);
         }
     else{
         max = b;    

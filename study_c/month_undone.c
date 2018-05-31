@@ -1,8 +1,11 @@
-//输入1-12月，显示英文
+//Input the 1-12 month，then output the month whit english
 #include <stdio.h>
 int main(void)
 {
-	printf("请输入1-12月，我们将输出英文的月份");
+	int month;
+	printf("Input the 1-12 month:");
+	scanf("%d",&month);
+
 
 
 

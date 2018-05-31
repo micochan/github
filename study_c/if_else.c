@@ -8,11 +8,11 @@ int main(void)
     scanf("%d %d",&a,&b);
     max = a;
     if(a > b){
-        printf("大的数为：%d\n",max);
+        printf("碽igger number is：%d\n",max);
         }
     else{
         max = b;    
-        printf("大的数为：%d\n",max);
+        printf("bigger number is：%d\n",max);
         }
     */
 	int a,b,x,y;

@@ -1,5 +1,5 @@
-//输入一个四位整数，并将每位相加，计算结果
-//例如1234，结果为10
+//Input four integer, then sum each number
+//demo: 1234，result is: 10
 
 #include <stdio.h>
 int main(void)

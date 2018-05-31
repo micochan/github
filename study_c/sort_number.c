@@ -1,11 +1,11 @@
-//输入三个整数，并将三个数从小到大排列
+//Enter 3 integers and rank them from small to large
 #include <stdio.h>
 int main(void)
 {
 	int x,y,z,t;
 	printf("Please input three integer:");
 	scanf("%d %d %d",&x,&y,&z);
-	printf("这三个数分别为：%d,%d,%d!\n",x,y,z);
+	printf("These 3 integers are：%d,%d,%d!\n",x,y,z);
 
 	if(x > y)
 	{
@@ -25,7 +25,7 @@ int main(void)
 		y = z;
 		z = t;
 	}
-	printf("从小到大排列后：%d,%d,%d!\n",x,y,z);
+	printf("From small to large：%d,%d,%d!\n",x,y,z);
 
 
 }

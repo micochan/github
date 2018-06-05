@@ -1,4 +1,4 @@
-//chapter6_practice3
+//chapter6_practice4
 #include <stdio.h>
 int main(void)
 {

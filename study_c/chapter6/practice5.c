@@ -13,11 +13,11 @@ line = ch - 'A' +1;
         for(j = i; j < line; ++j){
         printf(" ");
         }
-        temp = 'A';
+        temp = 'A' -1;
         for(j = 0; j < i + 1;++j){
-        printf("%c",temp++);
+        printf("%c",++temp);
         }
-        for(j = 0; j < i ; ++j){
+        for(j = 0; j < i; ++j){
         printf("%c",--temp);
         }
 

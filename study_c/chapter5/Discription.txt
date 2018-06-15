@@ -1,0 +1,1 @@
+This chapter2 is learn Data and "printf","scanf"

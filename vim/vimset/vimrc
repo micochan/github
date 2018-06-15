@@ -1,0 +1,9 @@
+set nu			"show line number
+
+set cursorcolumn	"or set cuc	show cursor column
+set cursorline		"or set cul	show cursor line
+
+syntax enable
+syntax on
+colorscheme solarized
+

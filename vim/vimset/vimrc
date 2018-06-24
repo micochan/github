@@ -1,4 +1,5 @@
 set nu			"show line number
+set tabstop=4
 
 set cursorcolumn	"or set cuc	show cursor column
 set cursorline		"or set cul	show cursor line

@@ -7,18 +7,24 @@ int main(void){
 	int i,j;
 	int temp;
 
+	for(i = 0; i < N; i++){
+	printf("%d ",nums[i]);
+	}
+	printf("\n");
+
 	for(i = 0; i < N - 1; i++){
 		for(j = 0; j < N - i - 1; j++){
-			if(nums[i] < nums[i + 1]){
-				temp = nums[i];
-				nums[i] = nums[i + 1];
-				nums[i + 1] = temp;
+			if(nums[j] > nums[j + 1]){
+				temp = nums[j];
+				nums[j] = nums[j + 1];
+				nums[j + 1] = temp;
 			}
 		}
 	}
-	for(i = 0; i < N - 1; i++){
+	for(i = 0; i < N; i++){
 	printf("%d ",nums[i]);
 	}
+	printf("\n");
 return 0;
 }
 

@@ -13,7 +13,7 @@ int main(void){
 
 	int count = 5;		//数组元素长度不能使用变量
 	double deletePower;	//用户所要删除的战力值
-	double deleteIndex;	//要删除的战力值对应的元素下标
+	int deleteIndex;	//要删除的战力值对应的元素下标
 	int i;				//循环变量
 	double powers[] = {42322, 45771, 40907, 41234, 40767};
 	printf("请输入要删除的战力值：");

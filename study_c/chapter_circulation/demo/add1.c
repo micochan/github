@@ -7,11 +7,11 @@ int main(void)
 	int i;			//循环变量
 	int sum;		//累加和
 	printf("请输入一个正整数：");
-	scanf("%d",&num);
-	while(num <= 0){                //判断输入的数是否为正整数，如果不是，重新输入
-		printf("输入错误，请重新输入：");
-		scanf("%d",&num);
-	}
+		while(scanf("%d",&num) != 1 || num <= 0){	//判断输入的数是否为正整数，如果不是，重新输入
+			printf("输入错误，请重新输入：");
+			scanf("%d",&num);
+		}
+	
 	while(i <= num){
 		sum += i;
 		i++;		

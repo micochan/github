@@ -49,7 +49,13 @@ int main(void){
 	//新增战力值
 	printf("请输入新产生的战力值：");
 	scanf("%lf",&newPower);
-
+	powers[count] = newPower;
+	count++;
+	for(i = 0; i < count; i++){
+	
+	printf("%.2lf\t",powers[i]);
+	}
+	printf("\n");
 
 return 0;
 }

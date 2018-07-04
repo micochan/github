@@ -33,7 +33,7 @@ void main()
 	printf(" Jan Feb Mar Apr May Jun Jul Aug Sep Oct");
 	printf(" Nov Dec\n");
 
-	for(month = 0; month < MONTHS; month++)
+	for(month = 0; month < MONTHS; month++)		//每月5年平均降水量
 	{
 		for(year = 0, subtotal = 0; year < YEARS; year++)
 		{

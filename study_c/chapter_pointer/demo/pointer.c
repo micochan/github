@@ -34,5 +34,10 @@ void main()
 	printf("num1的值为：%d,内存地址为：%p.\n",num1,ptr_num1);
 	printf("num2的值为：%d,内存地址为：%p.\n",num2,ptr_num2);
 
+	num2 = 2222;
+	ptr_num2 = ptr_num1;
+	printf("变更后的值：\n");	
+	printf("num1的值为：%d,内存地址为：%p.\n",num1,ptr_num1);
+	printf("num2的值为：%d,内存地址为：%p.\n",num2,ptr_num2);
 
 }

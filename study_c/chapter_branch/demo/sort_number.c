@@ -3,8 +3,15 @@
 int main(void)
 {
 	int x,y,z,t;
+	char ch;
 	printf("Please input three integer:");
-	scanf("%d %d %d",&x,&y,&z);
+	while(scanf("%d %d %d",&x,&y,&z) != 3)
+		{
+			while((ch = getchar()) != '\n')
+				{
+				printf("输入错误，请重新输入：");
+				}
+		}
 	printf("These 3 integers are：%d,%d,%d!\n",x,y,z);
 
 	if(x > y)

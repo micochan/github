@@ -7,16 +7,14 @@ int main(void)
 	printf("Please input three integer:");
 	while(scanf("%d %d %d",&x,&y,&z) != 3)
 		{
-			while((ch = getchar()) != '\n')
-				{
-				printf("输入错误，请重新输入：");
-				}
+			while((ch = getchar()) != '\n');
+			printf("input error, plesae input again:");
 		}
-	printf("These 3 integers are：%d,%d,%d!\n",x,y,z);
+	printf("These 3 integers are:%d,%d,%d!\n",x,y,z);
 
 	if(x > y)
 	{
-		t = x;
+		t =  x;
 		x = y;
 		y = t;
 	}
@@ -32,7 +30,7 @@ int main(void)
 		y = z;
 		z = t;
 	}
-	printf("From small to large：%d,%d,%d!\n",x,y,z);
+	printf("From small to larger:%d,%d,%d!\n",x,y,z);
 
 
 }

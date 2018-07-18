@@ -8,8 +8,9 @@ int main(void)
 	int sum;		//累加和
 	printf("请输入一个正整数：");
 		while(scanf("%d",&num) != 1 || num <= 0){	//判断输入的数是否为正整数，如果不是，重新输入
-			printf("输入错误，请重新输入：");
-			scanf("%d",&num);
+		while(getchar() != '\n')
+			continue;
+		printf("输入错误，请重新输入：");
 		}
 	
 	while(i <= num){
